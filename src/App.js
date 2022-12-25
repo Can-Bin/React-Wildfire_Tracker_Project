@@ -1,8 +1,9 @@
 import React from 'react';
+import Map from './components/Map';
 const App = () => {
     return (
-        <div>
-            <h1>Welcome to the app</h1>
+        <div className='map'>
+            <Map/>
         </div>
     )
 }
